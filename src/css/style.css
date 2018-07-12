@@ -33,5 +33,55 @@ nav ul {
 	padding-left: 15px;
 	float: left;
 	line-height: 80px;
-	
+}
+
+nav ul {
+	list-style-type: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	position: relative;
+	width: 150px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000000;
+	line-height: 80px;
+	padding: 0 10px;
+	display: block;
+}
+
+nav ul li a:hover {
+	color: #FFFFFF;
+	transition-duration: 2s;
+}
+
+nav ul ul {
+	background-image: linear-gradient(to right, #FDF,#F8D,#F5A,#F54);
+	text-align: left;
+	width: 100%;
+}
+
+nav ul ul li {
+	display: block;
+}
+
+nav ul ul li a {
+	padding: 0 15px;
+}
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover >ul {
+	display: block;
+	position: absolute:
+	z-index: 1;
 }
