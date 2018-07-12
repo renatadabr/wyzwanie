@@ -9,3 +9,29 @@ body {
 	margin: 0;
 }
 
+header {
+	background: linear-gradient(to right, #FDF,#F8D,#F5A,#F54);
+	height: 80px;
+}
+
+.logo {
+	float: left;
+}
+
+nav ul {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.nav-logo {
+	color: #414;
+	font-size: 15px;
+	margin: 0;
+	padding-left: 15px;
+	float: left;
+	line-height: 80px;
+	
+}
