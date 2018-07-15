@@ -183,3 +183,31 @@ nav ul li:hover >ul {
 .gallery-image img:hover {
 	transform: scale(1.25);
 }
+
+.movie-section {
+	position: relative;
+	height: 400px;
+	background-color: #FDF;
+	animation: colorchange 15s ease infinite;
+}
+
+@keyframes colorchange {
+	0% { background: #66b8c4;
+	}
+	25% { background: #72d6c9;
+	}
+	50% { background: #f29cd9;
+	}
+	75% { background: #e00986;
+	}
+	100% { background: #fbb619;
+	}
+}
+
+.single-movie { 
+	position: absolute;
+	margin: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
